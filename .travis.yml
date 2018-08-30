@@ -10,7 +10,7 @@ addons:
 env:
   global:
   - USE_DOCKER="true"
-  - WDIR=/go/src/github.com/filebrowser/filebrowser
+  - WDIR=/go/src/github.com/rpw/filebrowser
 stages:
   - lint
   - test

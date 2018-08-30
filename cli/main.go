@@ -1,6 +1,6 @@
 package main
 
-import "github.com/filebrowser/filebrowser/cli/cmd"
+import "github.com/rpw/filebrowser/cli/cmd"
 
 func main() {
 	cmd.Execute()

@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	filebrowser "github.com/filebrowser/filebrowser/lib"
+	filebrowser "github.com/rpw/filebrowser/lib"
 	"github.com/spf13/cobra"
 	v "github.com/spf13/viper"
 )

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	fb "github.com/filebrowser/filebrowser/lib"
+	fb "github.com/rpw/filebrowser/lib"
 	"github.com/gorilla/websocket"
 )
 
