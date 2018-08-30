@@ -9,7 +9,7 @@ COMMIT_SHA="$(git rev-parse --verify HEAD | cut -c1-8)"
 eval `ssh-agent -s`
 openssl aes-256-cbc -K $encrypted_9ca81b5594f5_key -iv $encrypted_9ca81b5594f5_iv -in ./deploy_key.enc -d | ssh-add -
 
-git clone git@github.com:filebrowser/caddy caddy
+git clone git@github.com:rpw/caddy caddy
 cd caddy
 cp ../../lib/rice-box.go assets/
 sed -i 's/package lib/package assets/g' assets/rice-box.go
